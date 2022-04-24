@@ -27,7 +27,7 @@ using namespace std;
     }
 
 int main()
-{
+{// updated with comments
     vector<int> heights = {1,8,6,2,5,4,8,3,7};
     cout<<" the max water stored is:" << maxArea(heights)<<endl;
     return 0;
