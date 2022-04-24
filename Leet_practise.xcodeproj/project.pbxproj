@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DBC73C8D2814FF1E0026862D /* water_container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC73C8C2814FF1E0026862D /* water_container.cpp */; };
+		DBC73C952815023E0026862D /* water_container.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBC73C8C2814FF1E0026862D /* water_container.cpp */; };
+		DBD197CB281503D300C3AC9A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBD197CA281503D300C3AC9A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		DBC73C872814FF1E0026862D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DBD197C6281503D300C3AC9A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,11 +35,19 @@
 /* Begin PBXFileReference section */
 		DBC73C892814FF1E0026862D /* Leet_practise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leet_practise; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC73C8C2814FF1E0026862D /* water_container.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = water_container.cpp; sourceTree = "<group>"; };
-		DBC73C93281500AA0026862D /* second_cpp_program.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = second_cpp_program.cpp; sourceTree = "<group>"; };
+		DBD197C8281503D300C3AC9A /* second_cpp_code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = second_cpp_code; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD197CA281503D300C3AC9A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DBC73C862814FF1E0026862D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD197C5281503D300C3AC9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				DBC73C8B2814FF1E0026862D /* Leet_practise */,
+				DBD197C9281503D300C3AC9A /* second_cpp_code */,
 				DBC73C8A2814FF1E0026862D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				DBC73C892814FF1E0026862D /* Leet_practise */,
+				DBD197C8281503D300C3AC9A /* second_cpp_code */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,9 +79,16 @@
 			isa = PBXGroup;
 			children = (
 				DBC73C8C2814FF1E0026862D /* water_container.cpp */,
-				DBC73C93281500AA0026862D /* second_cpp_program.cpp */,
 			);
 			path = Leet_practise;
+			sourceTree = "<group>";
+		};
+		DBD197C9281503D300C3AC9A /* second_cpp_code */ = {
+			isa = PBXGroup;
+			children = (
+				DBD197CA281503D300C3AC9A /* main.cpp */,
+			);
+			path = second_cpp_code;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +111,23 @@
 			productReference = DBC73C892814FF1E0026862D /* Leet_practise */;
 			productType = "com.apple.product-type.tool";
 		};
+		DBD197C7281503D300C3AC9A /* second_cpp_code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD197CE281503D300C3AC9A /* Build configuration list for PBXNativeTarget "second_cpp_code" */;
+			buildPhases = (
+				DBD197C4281503D300C3AC9A /* Sources */,
+				DBD197C5281503D300C3AC9A /* Frameworks */,
+				DBD197C6281503D300C3AC9A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = second_cpp_code;
+			productName = second_cpp_code;
+			productReference = DBD197C8281503D300C3AC9A /* second_cpp_code */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +138,9 @@
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					DBC73C882814FF1E0026862D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					DBD197C7281503D300C3AC9A = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
@@ -112,6 +159,7 @@
 			projectRoot = "";
 			targets = (
 				DBC73C882814FF1E0026862D /* Leet_practise */,
+				DBD197C7281503D300C3AC9A /* second_cpp_code */,
 			);
 		};
 /* End PBXProject section */
@@ -121,7 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBC73C8D2814FF1E0026862D /* water_container.cpp in Sources */,
+				DBC73C952815023E0026862D /* water_container.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD197C4281503D300C3AC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD197CB281503D300C3AC9A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +309,22 @@
 			};
 			name = Release;
 		};
+		DBD197CC281503D300C3AC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBD197CD281503D300C3AC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -270,6 +342,15 @@
 			buildConfigurations = (
 				DBC73C912814FF1E0026862D /* Debug */,
 				DBC73C922814FF1E0026862D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD197CE281503D300C3AC9A /* Build configuration list for PBXNativeTarget "second_cpp_code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD197CC281503D300C3AC9A /* Debug */,
+				DBD197CD281503D300C3AC9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
