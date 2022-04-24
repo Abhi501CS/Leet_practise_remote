@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		DBC73C892814FF1E0026862D /* Leet_practise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Leet_practise; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC73C8C2814FF1E0026862D /* water_container.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = water_container.cpp; sourceTree = "<group>"; };
+		DBC73C93281500AA0026862D /* second_cpp_program.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = second_cpp_program.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				DBC73C8C2814FF1E0026862D /* water_container.cpp */,
+				DBC73C93281500AA0026862D /* second_cpp_program.cpp */,
 			);
 			path = Leet_practise;
 			sourceTree = "<group>";
